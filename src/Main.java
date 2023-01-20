@@ -29,6 +29,8 @@ public class Main {
     }
 
     public static void task2() {
+        System.out.println((char) 27 + "[32m--------Конец задачи--------" + (char)27 + "[0m");
+        System.out.println(" ");
         System.out.println((char) 27 + "[34m----------Задача 2----------" + (char)27 + "[0m");
         int a = 1;
         while (a <= 10){
@@ -49,6 +51,8 @@ public class Main {
     «Год …, численность населения составляет …».
      */
     public static void task3() {
+        System.out.println((char) 27 + "[32m--------Конец задачи--------" + (char)27 + "[0m");
+        System.out.println(" ");
         System.out.println((char) 27 + "[34m----------Задача 3----------" + (char)27 + "[0m");
         int totalY = 12_000_000;
         float fertility =(float) 17 / 1000;
@@ -61,6 +65,8 @@ public class Main {
     }
 
     public static void task4() {
+        System.out.println((char) 27 + "[32m--------Конец задачи--------" + (char)27 + "[0m");
+        System.out.println(" ");
         System.out.println((char) 27 + "[34m----------Задача 4----------" + (char)27 + "[0m");
         int salary = 15000;
         int total = 0;
@@ -74,6 +80,8 @@ public class Main {
     }
 
     public static void task5() {
+        System.out.println((char) 27 + "[32m--------Конец задачи--------" + (char)27 + "[0m");
+        System.out.println(" ");
         System.out.println((char) 27 + "[34m----------Задача 5----------" + (char) 27 + "[0m");
         int salary = 15000;
         int total = 0;
@@ -89,6 +97,8 @@ public class Main {
     }
 
     public static void task6() {
+        System.out.println((char) 27 + "[32m--------Конец задачи--------" + (char)27 + "[0m");
+        System.out.println(" ");
         System.out.println((char) 27 + "[34m----------Задача 6----------" + (char)27 + "[0m");
         int salary = 15000;
         int total = 0;
@@ -104,6 +114,8 @@ public class Main {
     }
 
     public static void task7() {
+        System.out.println((char) 27 + "[32m--------Конец задачи--------" + (char)27 + "[0m");
+        System.out.println(" ");
         System.out.println((char) 27 + "[34m----------Задача 7----------" + (char)27 + "[0m");
         int friday = 5;
         int month = 31;
@@ -113,6 +125,8 @@ public class Main {
     }
 
     public static void task8() {
+        System.out.println((char) 27 + "[32m--------Конец задачи--------" + (char)27 + "[0m");
+        System.out.println(" ");
         System.out.println((char) 27 + "[34m----------Задача 8----------" + (char)27 + "[0m");
         int startYear = 2023;
         int yearBefore = startYear - 200;
