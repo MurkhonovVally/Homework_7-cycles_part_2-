@@ -20,12 +20,12 @@ public class Main {
         System.out.println((char) 27 + "[34m----------Задача 1----------" + (char)27 + "[0m");
         int salary = 15000;
         int total = 0;
-        for (int i = 0; total < 2_459_000; i = i +1) {
+        int i = 0;
+        while (total < 2_459_000) {
+            i = i + 1;
             total = total + salary;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
-        System.out.println(total);
-
     }
 
     public static void task2() {
@@ -51,12 +51,26 @@ public class Main {
     public static void task3() {
         System.out.println((char) 27 + "[34m----------Задача 3----------" + (char)27 + "[0m");
         int totalY = 12_000_000;
-        int fertility = 0;
-        //System.out.println("Год " +  + ", численность населения составляет " + );
+        float fertility =(float) 17 / 1000;
+        float mortality = (float) 8 / 1000;
+        float growth = fertility - mortality;
+        for (int c = 1; c < 11; c = c + 1) {
+            totalY += totalY * growth;
+            System.out.println("Год " + c + ", численность населения составляет " + totalY);
+        }
     }
 
     public static void task4() {
         System.out.println((char) 27 + "[34m----------Задача 4----------" + (char)27 + "[0m");
+        int salary = 15000;
+        int total = 0;
+        int i = 0;
+        while (total < 12_000_000) {
+            i = i + 1;
+            total += total * 0.07;
+            total = total + salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
     }
 
     public static void task5() {
